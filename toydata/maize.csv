@@ -1,0 +1,13 @@
+subject,predicate,object
+DREB2A,regulates,Drought Tolerance
+ZmNAC111,regulates,Root Depth
+PSY1,regulates,Kernel Color
+B73,has_trait,Drought Tolerance
+Mo17,has_trait,High Yield
+CML247,has_trait,Deep Roots
+Drought Tolerance,associated_with,qDT1.1
+qDT1.1,located_on,Chromosome 1
+Trial_Ames_2020,conducted_in,Ames
+B73,tested_in,Trial_Ames_2020
+Trial_Ames_2020,measured,Drought Tolerance
+Ames,has_weather,Drought

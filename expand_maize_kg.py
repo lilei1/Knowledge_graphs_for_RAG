@@ -210,11 +210,12 @@ def main():
         # List of additional CSV files to load
         csv_files = [
             'toydata/additional_genes.csv',
-            'toydata/genotype_traits.csv', 
+            'toydata/genotype_traits.csv',
             'toydata/qtl_mappings.csv',
             'toydata/field_trials.csv',
             'toydata/molecular_markers.csv',
-            'toydata/pathways.csv'
+            'toydata/pathways.csv',
+            'toydata/literature_extracted.csv'  # Literature-mined data
         ]
         
         total_new_nodes = 0

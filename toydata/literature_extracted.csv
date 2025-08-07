@@ -1,0 +1,29 @@
+subject,predicate,object
+DREB2A,regulates,Drought Tolerance
+B73,has_trait,Drought Tolerance
+Drought Tolerance,associated_with,qDT1.1
+qDT1.1,located_on,Chromosome 1
+B73,tested_in,Trial_Nebraska_2020
+Trial_Nebraska_2020,conducted_in,Nebraska
+ZmVPP1,regulates,Drought Tolerance
+ZmVPP1,participates_in,ABA Signaling Pathway
+ZmVPP1,has_marker,SNP_chr1_1234567
+Mo17,has_trait,Drought Tolerance
+ZmDREB1A,regulates,Cold Tolerance
+ZmDREB1A,participates_in,Cold Response Pathway
+Cold Tolerance,associated_with,qCT2.1
+qCT2.1,located_on,Chromosome 2
+W22,has_trait,Cold Tolerance
+W22,has_trait,Early Flowering
+ZmNF-YB2,regulates,Nitrogen Use Efficiency
+ZmNF-YB2,participates_in,Nitrogen Metabolism
+Nitrogen Use Efficiency,associated_with,qNUE3.1
+qNUE3.1,located_on,Chromosome 3
+SSR_phi003,linked_to,qNUE3.1
+A632,has_trait,Nitrogen Use Efficiency
+ZmMYB31,regulates,Anthocyanin Production
+ZmMYB31,participates_in,Anthocyanin Biosynthesis
+Ki3,has_trait,Anthocyanin Production
+Ki3,has_trait,Purple Kernels
+Anthocyanin Production,associated_with,qAC8.1
+qAC8.1,located_on,Chromosome 8

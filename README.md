@@ -244,9 +244,12 @@ For detailed setup instructions, see [SETUP_GUIDE.md](SETUP_GUIDE.md).
 ## Contributing
 
 Feel free to contribute by:
-- **Adding more data sources**: Create new CSV files or mine literature
+- **Adding more data sources**: Create new CSV files, mine literature, or integrate databases
 - **Improving literature mining**: Enhance LLM prompts and extraction accuracy
+- **Expanding database mining**: Add support for more biological databases (MaizeGDB, Gramene, etc.)
+- **Enhancing API integrations**: Improve real-time data synchronization with databases
 - **Expanding the data model**: Add new node types and relationship categories
 - **Creating analysis tools**: Build specialized query interfaces or visualizations
-- **Validating extracted data**: Cross-reference with biological databases
+- **Validating extracted data**: Cross-reference with biological databases and literature
 - **Integrating new LLM providers**: Add support for additional AI models
+- **Quality control**: Implement data validation and consistency checking pipelines

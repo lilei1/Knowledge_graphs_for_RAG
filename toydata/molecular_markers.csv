@@ -1,0 +1,16 @@
+subject,predicate,object
+SNP_chr1_1234567,associated_with,Drought Tolerance
+SNP_chr2_2345678,associated_with,Cold Tolerance
+SNP_chr3_3456789,associated_with,Nitrogen Use Efficiency
+SNP_chr4_4567890,associated_with,Flowering Time
+SNP_chr5_5678901,associated_with,Salt Tolerance
+SSR_phi001,linked_to,qDT1.1
+SSR_phi002,linked_to,qCT2.1
+SSR_phi003,linked_to,qNUE3.1
+SSR_phi004,linked_to,qFT4.1
+SSR_phi005,linked_to,qST5.1
+DREB2A,has_marker,SNP_chr1_1234567
+ZmVPP1,has_marker,SNP_chr1_1234567
+ZmDREB1A,has_marker,SNP_chr2_2345678
+ZmNF-YB2,has_marker,SNP_chr3_3456789
+ZmCCT,has_marker,SNP_chr4_4567890

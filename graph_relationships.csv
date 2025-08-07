@@ -1,13 +1,128 @@
 source,relationship,target
+A632,HAS_TRAIT,Nitrogen Use Efficiency
+A632,HAS_TRAIT,Tall Plant Height
+A632,TESTED_IN,Trial_Illinois_2022
+ABA Signaling Pathway,REGULATES,Drought Tolerance
 Ames,HAS_WEATHER,Drought
+Anthocyanin Biosynthesis,REGULATES,Anthocyanin Production
+Auxin Response Pathway,REGULATES,Root Development
+B37,HAS_TRAIT,Lodging Resistance
+B37,HAS_TRAIT,Stem Elongation
+B37,TESTED_IN,Trial_Minnesota_2023
 B73,HAS_TRAIT,Drought Tolerance
 B73,TESTED_IN,Trial_Ames_2020
+B73,TESTED_IN,Trial_Minnesota_2023
 CML247,HAS_TRAIT,Deep Roots
+Cell Division Pathway,REGULATES,Plant Height
+Circadian Clock Pathway,REGULATES,Flowering Time
+Cold Response Pathway,REGULATES,Cold Tolerance
+Cold Tolerance,ASSOCIATED_WITH,qCT2.1
+DREB2A,HAS_MARKER,SNP_chr1_1234567
+DREB2A,PARTICIPATES_IN,ABA Signaling Pathway
 DREB2A,REGULATES,Drought Tolerance
+Defense Response Pathway,REGULATES,Disease Resistance
+Disease Resistance,ASSOCIATED_WITH,qDR6.1
 Drought Tolerance,ASSOCIATED_WITH,qDT1.1
+F7,HAS_TRAIT,Deep Root System
+F7,HAS_TRAIT,Root Development
+F7,TESTED_IN,Trial_Kansas_2022
+Flowering Time,ASSOCIATED_WITH,qFT4.1
+High Yield,ASSOCIATED_WITH,qYLD10.1
+Illinois,HAS_WEATHER,High Temperature
+Iowa,HAS_WEATHER,Normal Rainfall
+Kansas,HAS_WEATHER,Wind Stress
+Kernel Color,ASSOCIATED_WITH,qKC8.1
+Ki3,HAS_TRAIT,Anthocyanin Production
+Ki3,HAS_TRAIT,Purple Kernels
+Ki3,TESTED_IN,Trial_Nebraska_2021
+Minnesota,HAS_WEATHER,Cold Stress
 Mo17,HAS_TRAIT,High Yield
+NC350,HAS_TRAIT,Broad Leaves
+NC350,HAS_TRAIT,Leaf Architecture
+NC350,TESTED_IN,Trial_Kansas_2022
+Nebraska,HAS_WEATHER,Drought
+Nitrogen Metabolism,REGULATES,Nitrogen Use Efficiency
+Nitrogen Use Efficiency,ASSOCIATED_WITH,qNUE3.1
+Oh43,HAS_TRAIT,Disease Resistance
+Oh43,HAS_TRAIT,High Protein Content
+Oh43,TESTED_IN,Trial_Iowa_2021
+PH207,HAS_TRAIT,Large Kernel Size
+PH207,HAS_TRAIT,Salt Tolerance
+PH207,TESTED_IN,Trial_Nebraska_2021
 PSY1,REGULATES,Kernel Color
+Plant Height,ASSOCIATED_WITH,qPH7.1
+Root Depth,ASSOCIATED_WITH,qRD9.1
+SNP_chr1_1234567,ASSOCIATED_WITH,Drought Tolerance
+SNP_chr2_2345678,ASSOCIATED_WITH,Cold Tolerance
+SNP_chr3_3456789,ASSOCIATED_WITH,Nitrogen Use Efficiency
+SNP_chr4_4567890,ASSOCIATED_WITH,Flowering Time
+SNP_chr5_5678901,ASSOCIATED_WITH,Salt Tolerance
+SSR_phi001,LINKED_TO,qDT1.1
+SSR_phi002,LINKED_TO,qCT2.1
+SSR_phi003,LINKED_TO,qNUE3.1
+SSR_phi004,LINKED_TO,qFT4.1
+SSR_phi005,LINKED_TO,qST5.1
+Salt Stress Pathway,REGULATES,Salt Tolerance
+Salt Tolerance,ASSOCIATED_WITH,qST5.1
 Trial_Ames_2020,CONDUCTED_IN,Ames
 Trial_Ames_2020,MEASURED,Drought Tolerance
+Trial_Illinois_2022,CONDUCTED_IN,Illinois
+Trial_Illinois_2022,MEASURED,Heat Tolerance
+Trial_Illinois_2022,MEASURED,Nitrogen Use Efficiency
+Trial_Iowa_2021,CONDUCTED_IN,Iowa
+Trial_Iowa_2021,MEASURED,Cold Tolerance
+Trial_Iowa_2021,MEASURED,Early Flowering
+Trial_Kansas_2022,CONDUCTED_IN,Kansas
+Trial_Kansas_2022,MEASURED,Leaf Architecture
+Trial_Kansas_2022,MEASURED,Root Development
+Trial_Minnesota_2023,CONDUCTED_IN,Minnesota
+Trial_Minnesota_2023,MEASURED,Drought Tolerance
+Trial_Minnesota_2023,MEASURED,Stem Elongation
+Trial_Nebraska_2021,CONDUCTED_IN,Nebraska
+Trial_Nebraska_2021,MEASURED,Anthocyanin Production
+Trial_Nebraska_2021,MEASURED,Salt Tolerance
+Tx303,HAS_TRAIT,Heat Tolerance
+Tx303,HAS_TRAIT,Late Flowering
+Tx303,TESTED_IN,Trial_Illinois_2022
+W22,HAS_TRAIT,Cold Tolerance
+W22,HAS_TRAIT,Early Flowering
+W22,TESTED_IN,Trial_Iowa_2021
+ZmARF25,PARTICIPATES_IN,Auxin Response Pathway
+ZmARF25,REGULATES,Root Development
+ZmCCT,HAS_MARKER,SNP_chr4_4567890
+ZmCCT,PARTICIPATES_IN,Circadian Clock Pathway
+ZmCCT,REGULATES,Flowering Time
+ZmDREB1A,HAS_MARKER,SNP_chr2_2345678
+ZmDREB1A,PARTICIPATES_IN,Cold Response Pathway
+ZmDREB1A,REGULATES,Cold Tolerance
+ZmEREB180,PARTICIPATES_IN,Salt Stress Pathway
+ZmEREB180,REGULATES,Salt Tolerance
+ZmGA20ox1,REGULATES,Stem Elongation
+ZmGRF1,REGULATES,Leaf Size
+ZmHDZ10,REGULATES,Leaf Architecture
+ZmKN1,REGULATES,Shoot Apical Meristem
+ZmMYB31,PARTICIPATES_IN,Anthocyanin Biosynthesis
+ZmMYB31,REGULATES,Anthocyanin Production
 ZmNAC111,REGULATES,Root Depth
+ZmNAC48,REGULATES,Senescence
+ZmNF-YB2,HAS_MARKER,SNP_chr3_3456789
+ZmNF-YB2,PARTICIPATES_IN,Nitrogen Metabolism
+ZmNF-YB2,REGULATES,Nitrogen Use Efficiency
+ZmSPL14,REGULATES,Tassel Architecture
+ZmTCP14,PARTICIPATES_IN,Cell Division Pathway
+ZmTCP14,REGULATES,Plant Height
+ZmVPP1,HAS_MARKER,SNP_chr1_1234567
+ZmVPP1,PARTICIPATES_IN,ABA Signaling Pathway
+ZmVPP1,REGULATES,Drought Tolerance
+ZmWRKY33,PARTICIPATES_IN,Defense Response Pathway
+ZmWRKY33,REGULATES,Disease Resistance
+qCT2.1,LOCATED_ON,Chromosome 2
+qDR6.1,LOCATED_ON,Chromosome 6
 qDT1.1,LOCATED_ON,Chromosome 1
+qFT4.1,LOCATED_ON,Chromosome 4
+qKC8.1,LOCATED_ON,Chromosome 8
+qNUE3.1,LOCATED_ON,Chromosome 3
+qPH7.1,LOCATED_ON,Chromosome 7
+qRD9.1,LOCATED_ON,Chromosome 9
+qST5.1,LOCATED_ON,Chromosome 5
+qYLD10.1,LOCATED_ON,Chromosome 10

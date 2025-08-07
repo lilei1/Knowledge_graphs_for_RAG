@@ -1,0 +1,19 @@
+subject,predicate,object
+W22,has_trait,Cold Tolerance
+W22,has_trait,Early Flowering
+Oh43,has_trait,Disease Resistance
+Oh43,has_trait,High Protein Content
+PH207,has_trait,Salt Tolerance
+PH207,has_trait,Large Kernel Size
+Ki3,has_trait,Anthocyanin Production
+Ki3,has_trait,Purple Kernels
+A632,has_trait,Nitrogen Use Efficiency
+A632,has_trait,Tall Plant Height
+Tx303,has_trait,Heat Tolerance
+Tx303,has_trait,Late Flowering
+NC350,has_trait,Leaf Architecture
+NC350,has_trait,Broad Leaves
+F7,has_trait,Root Development
+F7,has_trait,Deep Root System
+B37,has_trait,Stem Elongation
+B37,has_trait,Lodging Resistance

@@ -1,17 +1,116 @@
 node_type,name
 Chromosome,Chromosome 1
+Chromosome,Chromosome 10
+Chromosome,Chromosome 2
+Chromosome,Chromosome 3
+Chromosome,Chromosome 4
+Chromosome,Chromosome 5
+Chromosome,Chromosome 6
+Chromosome,Chromosome 7
+Chromosome,Chromosome 8
+Chromosome,Chromosome 9
+Entity,Shoot Apical Meristem
 Gene,DREB2A
 Gene,PSY1
+Gene,ZmARF25
+Gene,ZmCCT
+Gene,ZmDREB1A
+Gene,ZmEREB180
+Gene,ZmGA20ox1
+Gene,ZmGRF1
+Gene,ZmHDZ10
+Gene,ZmKN1
+Gene,ZmMYB31
 Gene,ZmNAC111
+Gene,ZmNAC48
+Gene,ZmNF-YB2
+Gene,ZmSPL14
+Gene,ZmTCP14
+Gene,ZmVPP1
+Gene,ZmWRKY33
+Genotype,A632
+Genotype,B37
 Genotype,B73
 Genotype,CML247
+Genotype,F7
+Genotype,Ki3
 Genotype,Mo17
+Genotype,NC350
+Genotype,Oh43
+Genotype,PH207
+Genotype,Tx303
+Genotype,W22
 Location,Ames
+Location,Illinois
+Location,Iowa
+Location,Kansas
+Location,Minnesota
+Location,Nebraska
+Marker,SNP_chr1_1234567
+Marker,SNP_chr2_2345678
+Marker,SNP_chr3_3456789
+Marker,SNP_chr4_4567890
+Marker,SNP_chr5_5678901
+Marker,SSR_phi001
+Marker,SSR_phi002
+Marker,SSR_phi003
+Marker,SSR_phi004
+Marker,SSR_phi005
+Pathway,ABA Signaling Pathway
+Pathway,Anthocyanin Biosynthesis
+Pathway,Auxin Response Pathway
+Pathway,Cell Division Pathway
+Pathway,Circadian Clock Pathway
+Pathway,Defense Response Pathway
+Pathway,Nitrogen Metabolism
+QTL,qCT2.1
+QTL,qDR6.1
 QTL,qDT1.1
+QTL,qFT4.1
+QTL,qKC8.1
+QTL,qNUE3.1
+QTL,qPH7.1
+QTL,qRD9.1
+QTL,qST5.1
+QTL,qYLD10.1
+Trait,Anthocyanin Production
+Trait,Broad Leaves
+Trait,Cold Stress
+Trait,Cold Tolerance
+Trait,Deep Root System
 Trait,Deep Roots
+Trait,Disease Resistance
 Trait,Drought Tolerance
+Trait,Early Flowering
+Trait,Flowering Time
+Trait,Heat Tolerance
+Trait,High Protein Content
 Trait,High Yield
 Trait,Kernel Color
+Trait,Large Kernel Size
+Trait,Late Flowering
+Trait,Leaf Architecture
+Trait,Leaf Size
+Trait,Lodging Resistance
+Trait,Nitrogen Use Efficiency
+Trait,Normal Rainfall
+Trait,Plant Height
+Trait,Purple Kernels
 Trait,Root Depth
+Trait,Root Development
+Trait,Salt Stress Pathway
+Trait,Salt Tolerance
+Trait,Senescence
+Trait,Stem Elongation
+Trait,Tall Plant Height
+Trait,Tassel Architecture
+Trait,Wind Stress
 Trial,Trial_Ames_2020
+Trial,Trial_Illinois_2022
+Trial,Trial_Iowa_2021
+Trial,Trial_Kansas_2022
+Trial,Trial_Minnesota_2023
+Trial,Trial_Nebraska_2021
+Weather,Cold Response Pathway
 Weather,Drought
+Weather,High Temperature

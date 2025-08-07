@@ -1,0 +1,31 @@
+subject,predicate,object
+Trial_Iowa_2021,conducted_in,Iowa
+Trial_Nebraska_2021,conducted_in,Nebraska
+Trial_Illinois_2022,conducted_in,Illinois
+Trial_Kansas_2022,conducted_in,Kansas
+Trial_Minnesota_2023,conducted_in,Minnesota
+Iowa,has_weather,Normal Rainfall
+Nebraska,has_weather,Drought
+Illinois,has_weather,High Temperature
+Kansas,has_weather,Wind Stress
+Minnesota,has_weather,Cold Stress
+W22,tested_in,Trial_Iowa_2021
+Oh43,tested_in,Trial_Iowa_2021
+PH207,tested_in,Trial_Nebraska_2021
+Ki3,tested_in,Trial_Nebraska_2021
+A632,tested_in,Trial_Illinois_2022
+Tx303,tested_in,Trial_Illinois_2022
+NC350,tested_in,Trial_Kansas_2022
+F7,tested_in,Trial_Kansas_2022
+B37,tested_in,Trial_Minnesota_2023
+B73,tested_in,Trial_Minnesota_2023
+Trial_Iowa_2021,measured,Cold Tolerance
+Trial_Iowa_2021,measured,Early Flowering
+Trial_Nebraska_2021,measured,Salt Tolerance
+Trial_Nebraska_2021,measured,Anthocyanin Production
+Trial_Illinois_2022,measured,Heat Tolerance
+Trial_Illinois_2022,measured,Nitrogen Use Efficiency
+Trial_Kansas_2022,measured,Leaf Architecture
+Trial_Kansas_2022,measured,Root Development
+Trial_Minnesota_2023,measured,Stem Elongation
+Trial_Minnesota_2023,measured,Drought Tolerance

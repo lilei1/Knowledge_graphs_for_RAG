@@ -1,0 +1,19 @@
+subject,predicate,object
+Cold Tolerance,associated_with,qCT2.1
+qCT2.1,located_on,Chromosome 2
+Nitrogen Use Efficiency,associated_with,qNUE3.1
+qNUE3.1,located_on,Chromosome 3
+Flowering Time,associated_with,qFT4.1
+qFT4.1,located_on,Chromosome 4
+Salt Tolerance,associated_with,qST5.1
+qST5.1,located_on,Chromosome 5
+Disease Resistance,associated_with,qDR6.1
+qDR6.1,located_on,Chromosome 6
+Plant Height,associated_with,qPH7.1
+qPH7.1,located_on,Chromosome 7
+Kernel Color,associated_with,qKC8.1
+qKC8.1,located_on,Chromosome 8
+Root Depth,associated_with,qRD9.1
+qRD9.1,located_on,Chromosome 9
+High Yield,associated_with,qYLD10.1
+qYLD10.1,located_on,Chromosome 10

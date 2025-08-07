@@ -104,30 +104,34 @@ This project demonstrates how to build knowledge graphs for Retrieval-Augmented 
 
 The expanded knowledge graph represents comprehensive maize genetic data with:
 
-### **Node Types (117 total nodes):**
+### **Node Types (142 total nodes):**
 - **18 Genes**: DREB2A, ZmVPP1, ZmNF-YB2, ZmCCT, etc.
-- **32 Traits**: Drought Tolerance, Cold Tolerance, Nitrogen Use Efficiency, etc.
+- **33 Traits**: Drought Tolerance, Cold Tolerance, Nitrogen Use Efficiency, etc.
 - **12 Genotypes**: B73, Mo17, W22, Oh43, PH207, etc.
-- **10 QTLs**: qDT1.1, qCT2.1, qNUE3.1, etc. (mapped across all 10 chromosomes)
+- **11 QTLs**: qDT1.1, qCT2.1, qNUE3.1, etc. (mapped across all 10 chromosomes)
 - **10 Chromosomes**: Complete maize genome representation
-- **7 Pathways**: ABA Signaling, Defense Response, Anthocyanin Biosynthesis, etc.
+- **25 Pathways**: Real KEGG pathways + ABA Signaling, Defense Response, etc.
 - **10 Markers**: SNP and SSR markers linked to genes and QTLs
-- **6 Trials**: Multi-location field experiments (2020-2023)
+- **7 Trials**: Multi-location field experiments (2020-2023)
 - **6 Locations**: Ames, Iowa, Nebraska, Illinois, Kansas, Minnesota
-- **3 Weather**: Environmental conditions (Drought, Cold Stress, High Temperature)
+- **4 Weather**: Environmental conditions (Drought, Cold Stress, High Temperature)
+- **6 Entities**: Expression experiments, protein functions, etc.
 
-### **Relationship Types (132 total relationships):**
+### **Relationship Types (154 total relationships):**
 - **REGULATES**: Gene → Trait regulation
 - **HAS_TRAIT**: Genotype → Trait associations
-- **PARTICIPATES_IN**: Gene → Pathway involvement
 - **ASSOCIATED_WITH**: Trait → QTL mappings
+- **IS_A**: Pathway categorizations (from KEGG database)
 - **LOCATED_ON**: QTL → Chromosome positions
-- **HAS_MARKER**: Gene → Molecular marker links
 - **TESTED_IN**: Genotype → Trial participation
 - **MEASURED**: Trial → Trait evaluation
+- **PARTICIPATES_IN**: Gene → Pathway involvement
 - **CONDUCTED_IN**: Trial → Location mapping
 - **HAS_WEATHER**: Location → Environmental conditions
+- **HAS_MARKER**: Gene → Molecular marker links
 - **LINKED_TO**: Marker → QTL associations
+- **HAS_FUNCTION**: Gene → Protein function (from databases)
+- **STUDIES**: Experiment → Research focus (from Expression Atlas)
 
 ## Example Queries
 

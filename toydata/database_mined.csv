@@ -1,0 +1,17 @@
+subject,predicate,object
+DREB2A,located_on,Chromosome 1
+DREB2A,regulates,Drought Tolerance
+DREB2A,has_function,Transcription Factor Activity
+ZmVPP1,located_on,Chromosome 1
+ZmVPP1,regulates,ABA Response
+ZmVPP1,has_function,Protein Phosphatase Activity
+Metabolic pathways - Zea mays (maize),is_a,Biological Pathway
+Biosynthesis of secondary metabolites - Zea mays (maize),is_a,Biosynthesis Pathway
+Carbon metabolism - Zea mays (maize),is_a,Metabolic Pathway
+2-Oxocarboxylic acid metabolism - Zea mays (maize),is_a,Metabolic Pathway
+Fatty acid metabolism - Zea mays (maize),is_a,Metabolic Pathway
+Biosynthesis of amino acids - Zea mays (maize),is_a,Biosynthesis Pathway
+Nucleotide metabolism - Zea mays (maize),is_a,Metabolic Pathway
+Biosynthesis of nucleotide sugars - Zea mays (maize),is_a,Biosynthesis Pathway
+Biosynthesis of cofactors - Zea mays (maize),is_a,Biosynthesis Pathway
+Nitrogen cycle - Zea mays (maize),is_a,Biological Pathway

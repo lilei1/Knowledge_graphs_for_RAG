@@ -1,0 +1,9 @@
+# Requirements compatible with Python 3.7
+pandas>=1.3.0,<1.4.0
+python-dotenv>=0.19.0,<1.0.0
+neo4j>=4.4.0,<5.0.0
+jupyter>=1.0.0
+notebook>=6.4.0,<7.0.0
+
+# For langchain-community, we'll use a simpler approach
+# since it requires Python 3.8+. We'll use neo4j driver directly.

@@ -1,0 +1,13 @@
+source,relationship,target
+Ames,HAS_WEATHER,Drought
+B73,HAS_TRAIT,Drought Tolerance
+B73,TESTED_IN,Trial_Ames_2020
+CML247,HAS_TRAIT,Deep Roots
+DREB2A,REGULATES,Drought Tolerance
+Drought Tolerance,ASSOCIATED_WITH,qDT1.1
+Mo17,HAS_TRAIT,High Yield
+PSY1,REGULATES,Kernel Color
+Trial_Ames_2020,CONDUCTED_IN,Ames
+Trial_Ames_2020,MEASURED,Drought Tolerance
+ZmNAC111,REGULATES,Root Depth
+qDT1.1,LOCATED_ON,Chromosome 1

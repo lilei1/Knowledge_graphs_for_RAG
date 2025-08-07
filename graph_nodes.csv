@@ -1,0 +1,17 @@
+node_type,name
+Chromosome,Chromosome 1
+Gene,DREB2A
+Gene,PSY1
+Gene,ZmNAC111
+Genotype,B73
+Genotype,CML247
+Genotype,Mo17
+Location,Ames
+QTL,qDT1.1
+Trait,Deep Roots
+Trait,Drought Tolerance
+Trait,High Yield
+Trait,Kernel Color
+Trait,Root Depth
+Trial,Trial_Ames_2020
+Weather,Drought

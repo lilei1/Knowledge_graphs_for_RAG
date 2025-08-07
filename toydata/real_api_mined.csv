@@ -1,0 +1,8 @@
+subject,predicate,object
+Metabolic pathways,is_a,Metabolic Pathway
+Biosynthesis of secondary metabolites,is_a,Biosynthesis Pathway
+Carbon metabolism,is_a,Metabolic Pathway
+2-Oxocarboxylic acid metabolism,is_a,Metabolic Pathway
+Fatty acid metabolism,is_a,Metabolic Pathway
+Experiment_E-MTAB-4045,studies,Transcription profiling by high throughput sequenc...
+Experiment_E-GEOD-61857,studies,Gene Expression Profiling of Glycine max Cotyledon...

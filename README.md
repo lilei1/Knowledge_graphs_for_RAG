@@ -8,6 +8,8 @@ This project demonstrates how to build knowledge graphs for Retrieval-Augmented 
 ├── README.md                    # This file
 ├── SETUP_GUIDE.md              # Detailed setup instructions
 ├── LITERATURE_MINING_GUIDE.md  # Guide for extracting data from literature
+├── DATABASE_MINING_GUIDE.md    # Guide for mining biological databases
+├── DATA_MINING_SUMMARY.md      # Complete overview of all mining approaches
 ├── requirements.txt            # Python dependencies
 ├── .env.template              # Environment configuration template
 ├── build_maize_kg.py          # Main script to build the knowledge graph
@@ -15,6 +17,8 @@ This project demonstrates how to build knowledge graphs for Retrieval-Augmented 
 ├── visualize_kg.py            # Script to analyze and visualize the graph
 ├── literature_mining.py       # Demo script for LLM-based data extraction
 ├── pubmed_mining.py           # Real PubMed integration with LLMs
+├── database_mining.py         # Demo script for database extraction
+├── real_api_mining.py         # Live API calls to real databases
 ├── example_queries.md         # 50+ advanced Cypher query examples
 ├── toydata/
 │   ├── maize.csv              # Original maize genetic data
@@ -24,7 +28,9 @@ This project demonstrates how to build knowledge graphs for Retrieval-Augmented 
 │   ├── field_trials.csv       # Multi-location trial data
 │   ├── molecular_markers.csv  # SNP and SSR marker data
 │   ├── pathways.csv           # Biological pathway information
-│   └── literature_extracted.csv # LLM-extracted literature data
+│   ├── literature_extracted.csv # LLM-extracted literature data
+│   ├── database_mined.csv     # Database-extracted relationships
+│   └── real_api_mined.csv     # Live API-extracted data
 └── notebook/
     ├── build_maize_kg.ipynb   # Jupyter notebook for building the KG
     ├── L2-query_with_cypher.ipynb
@@ -70,7 +76,13 @@ This project demonstrates how to build knowledge graphs for Retrieval-Augmented 
    # python3 pubmed_mining.py
    ```
 
-7. **Analyze the graph:**
+7. **Mine data from databases (optional):**
+   ```bash
+   python3 database_mining.py    # Demo database extraction
+   python3 real_api_mining.py    # Live API calls (requires internet)
+   ```
+
+8. **Analyze the graph:**
    ```bash
    python3 visualize_kg.py
    ```
@@ -82,6 +94,7 @@ This project demonstrates how to build knowledge graphs for Retrieval-Augmented 
 - **Comprehensive Data Model**: Supports genes, traits, genotypes, QTLs, pathways, markers, and more
 - **Multi-source Data Integration**: Combines genetic, phenotypic, and experimental data
 - **Literature Mining with LLMs**: Extract real data from scientific papers using GPT/Claude
+- **Database Mining**: Direct extraction from KEGG, UniProt, Ensembl, and other biological databases
 - **Advanced Query Examples**: 50+ Cypher queries for complex biological analysis
 - **Interactive Notebooks**: Jupyter notebooks for exploration and analysis
 - **Visualization Tools**: Scripts to analyze and export graph data
@@ -186,6 +199,39 @@ python3 pubmed_mining.py
 - **Curated databases**: MaizeGDB, Gramene, KEGG
 
 **See `LITERATURE_MINING_GUIDE.md` for detailed instructions and best practices.**
+
+## Database Mining
+
+Extract structured data directly from biological databases using APIs and web scraping:
+
+### **🗄️ Quick Demo:**
+```bash
+python3 database_mining.py     # Simulate database extraction
+python3 real_api_mining.py     # Live API calls to real databases
+```
+
+### **🌐 Supported Databases:**
+- **KEGG** ✅: Metabolic pathways, gene functions (REST API)
+- **UniProt** ✅: Protein functions, GO terms (REST API)
+- **Ensembl Plants** ✅: Genomic locations, annotations (REST API)
+- **EBI Expression Atlas** ✅: Gene expression experiments (REST API)
+- **MaizeGDB**: Curated maize genetics (web scraping required)
+- **Gramene**: Plant comparative genomics (REST API)
+
+### **📊 Real Data Extracted:**
+- **KEGG Pathways**: Metabolic pathways, Carbon metabolism, Fatty acid metabolism
+- **Expression Data**: Transcription profiling experiments from public studies
+- **Protein Functions**: Transcription factor activity, Protein phosphatase activity
+- **Genomic Locations**: Gene-chromosome mappings
+- **GO Terms**: Gene ontology annotations
+
+### **🔧 Mining Approaches:**
+- **REST APIs**: Direct programmatic access to databases
+- **Web Scraping**: Extract from databases without APIs
+- **Bulk Downloads**: Process database dump files
+- **Real-time Updates**: Incremental data synchronization
+
+**See `DATABASE_MINING_GUIDE.md` for comprehensive database mining strategies.**
 
 ## Getting Started
 

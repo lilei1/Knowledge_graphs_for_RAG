@@ -1,10 +1,13 @@
 source,relationship,target
+2-Oxocarboxylic acid metabolism,IS_A,Metabolic Pathway
+2-Oxocarboxylic acid metabolism - Zea mays (maize),IS_A,Metabolic Pathway
 A632,HAS_TRAIT,Nitrogen Use Efficiency
 A632,HAS_TRAIT,Tall Plant Height
 A632,TESTED_IN,Trial_Illinois_2022
 ABA Signaling Pathway,REGULATES,Drought Tolerance
 Ames,HAS_WEATHER,Drought
 Anthocyanin Biosynthesis,REGULATES,Anthocyanin Production
+Anthocyanin Production,ASSOCIATED_WITH,qAC8.1
 Auxin Response Pathway,REGULATES,Root Development
 B37,HAS_TRAIT,Lodging Resistance
 B37,HAS_TRAIT,Stem Elongation
@@ -12,20 +15,34 @@ B37,TESTED_IN,Trial_Minnesota_2023
 B73,HAS_TRAIT,Drought Tolerance
 B73,TESTED_IN,Trial_Ames_2020
 B73,TESTED_IN,Trial_Minnesota_2023
+B73,TESTED_IN,Trial_Nebraska_2020
+Biosynthesis of amino acids - Zea mays (maize),IS_A,Biosynthesis Pathway
+Biosynthesis of cofactors - Zea mays (maize),IS_A,Biosynthesis Pathway
+Biosynthesis of nucleotide sugars - Zea mays (maize),IS_A,Biosynthesis Pathway
+Biosynthesis of secondary metabolites,IS_A,Biosynthesis Pathway
+Biosynthesis of secondary metabolites - Zea mays (maize),IS_A,Biosynthesis Pathway
 CML247,HAS_TRAIT,Deep Roots
+Carbon metabolism,IS_A,Metabolic Pathway
+Carbon metabolism - Zea mays (maize),IS_A,Metabolic Pathway
 Cell Division Pathway,REGULATES,Plant Height
 Circadian Clock Pathway,REGULATES,Flowering Time
 Cold Response Pathway,REGULATES,Cold Tolerance
 Cold Tolerance,ASSOCIATED_WITH,qCT2.1
+DREB2A,HAS_FUNCTION,Transcription Factor Activity
 DREB2A,HAS_MARKER,SNP_chr1_1234567
+DREB2A,LOCATED_ON,Chromosome 1
 DREB2A,PARTICIPATES_IN,ABA Signaling Pathway
 DREB2A,REGULATES,Drought Tolerance
 Defense Response Pathway,REGULATES,Disease Resistance
 Disease Resistance,ASSOCIATED_WITH,qDR6.1
 Drought Tolerance,ASSOCIATED_WITH,qDT1.1
+Experiment_E-GEOD-61857,STUDIES,Gene Expression Profiling of Glycine max Cotyledon...
+Experiment_E-MTAB-4045,STUDIES,Transcription profiling by high throughput sequenc...
 F7,HAS_TRAIT,Deep Root System
 F7,HAS_TRAIT,Root Development
 F7,TESTED_IN,Trial_Kansas_2022
+Fatty acid metabolism,IS_A,Metabolic Pathway
+Fatty acid metabolism - Zea mays (maize),IS_A,Metabolic Pathway
 Flowering Time,ASSOCIATED_WITH,qFT4.1
 High Yield,ASSOCIATED_WITH,qYLD10.1
 Illinois,HAS_WEATHER,High Temperature
@@ -35,7 +52,10 @@ Kernel Color,ASSOCIATED_WITH,qKC8.1
 Ki3,HAS_TRAIT,Anthocyanin Production
 Ki3,HAS_TRAIT,Purple Kernels
 Ki3,TESTED_IN,Trial_Nebraska_2021
+Metabolic pathways,IS_A,Metabolic Pathway
+Metabolic pathways - Zea mays (maize),IS_A,Biological Pathway
 Minnesota,HAS_WEATHER,Cold Stress
+Mo17,HAS_TRAIT,Drought Tolerance
 Mo17,HAS_TRAIT,High Yield
 NC350,HAS_TRAIT,Broad Leaves
 NC350,HAS_TRAIT,Leaf Architecture
@@ -43,6 +63,8 @@ NC350,TESTED_IN,Trial_Kansas_2022
 Nebraska,HAS_WEATHER,Drought
 Nitrogen Metabolism,REGULATES,Nitrogen Use Efficiency
 Nitrogen Use Efficiency,ASSOCIATED_WITH,qNUE3.1
+Nitrogen cycle - Zea mays (maize),IS_A,Biological Pathway
+Nucleotide metabolism - Zea mays (maize),IS_A,Metabolic Pathway
 Oh43,HAS_TRAIT,Disease Resistance
 Oh43,HAS_TRAIT,High Protein Content
 Oh43,TESTED_IN,Trial_Iowa_2021
@@ -78,6 +100,7 @@ Trial_Kansas_2022,MEASURED,Root Development
 Trial_Minnesota_2023,CONDUCTED_IN,Minnesota
 Trial_Minnesota_2023,MEASURED,Drought Tolerance
 Trial_Minnesota_2023,MEASURED,Stem Elongation
+Trial_Nebraska_2020,CONDUCTED_IN,Nebraska
 Trial_Nebraska_2021,CONDUCTED_IN,Nebraska
 Trial_Nebraska_2021,MEASURED,Anthocyanin Production
 Trial_Nebraska_2021,MEASURED,Salt Tolerance
@@ -111,11 +134,15 @@ ZmNF-YB2,REGULATES,Nitrogen Use Efficiency
 ZmSPL14,REGULATES,Tassel Architecture
 ZmTCP14,PARTICIPATES_IN,Cell Division Pathway
 ZmTCP14,REGULATES,Plant Height
+ZmVPP1,HAS_FUNCTION,Protein Phosphatase Activity
 ZmVPP1,HAS_MARKER,SNP_chr1_1234567
+ZmVPP1,LOCATED_ON,Chromosome 1
 ZmVPP1,PARTICIPATES_IN,ABA Signaling Pathway
+ZmVPP1,REGULATES,ABA Response
 ZmVPP1,REGULATES,Drought Tolerance
 ZmWRKY33,PARTICIPATES_IN,Defense Response Pathway
 ZmWRKY33,REGULATES,Disease Resistance
+qAC8.1,LOCATED_ON,Chromosome 8
 qCT2.1,LOCATED_ON,Chromosome 2
 qDR6.1,LOCATED_ON,Chromosome 6
 qDT1.1,LOCATED_ON,Chromosome 1

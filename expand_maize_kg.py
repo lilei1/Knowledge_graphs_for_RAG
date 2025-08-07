@@ -215,7 +215,9 @@ def main():
             'toydata/field_trials.csv',
             'toydata/molecular_markers.csv',
             'toydata/pathways.csv',
-            'toydata/literature_extracted.csv'  # Literature-mined data
+            'toydata/literature_extracted.csv',  # Literature-mined data
+            'toydata/database_mined.csv',        # Database-mined data
+            'toydata/real_api_mined.csv'         # Real API-mined data (if available)
         ]
         
         total_new_nodes = 0

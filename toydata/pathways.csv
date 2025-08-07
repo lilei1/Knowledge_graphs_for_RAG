@@ -1,0 +1,20 @@
+subject,predicate,object
+DREB2A,participates_in,ABA Signaling Pathway
+ZmVPP1,participates_in,ABA Signaling Pathway
+ZmDREB1A,participates_in,Cold Response Pathway
+ZmEREB180,participates_in,Salt Stress Pathway
+ZmWRKY33,participates_in,Defense Response Pathway
+ZmMYB31,participates_in,Anthocyanin Biosynthesis
+ZmNF-YB2,participates_in,Nitrogen Metabolism
+ZmCCT,participates_in,Circadian Clock Pathway
+ZmTCP14,participates_in,Cell Division Pathway
+ZmARF25,participates_in,Auxin Response Pathway
+ABA Signaling Pathway,regulates,Drought Tolerance
+Cold Response Pathway,regulates,Cold Tolerance
+Salt Stress Pathway,regulates,Salt Tolerance
+Defense Response Pathway,regulates,Disease Resistance
+Anthocyanin Biosynthesis,regulates,Anthocyanin Production
+Nitrogen Metabolism,regulates,Nitrogen Use Efficiency
+Circadian Clock Pathway,regulates,Flowering Time
+Cell Division Pathway,regulates,Plant Height
+Auxin Response Pathway,regulates,Root Development

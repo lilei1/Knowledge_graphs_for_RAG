@@ -146,6 +146,7 @@ This project demonstrates how to build knowledge graphs for Retrieval-Augmented 
 
 ## Features
 
+### 📚 Learning Version Features
 - **Automated Knowledge Graph Construction**: Converts CSV data into a structured Neo4j graph
 - **Intelligent Node Classification**: Automatically categorizes entities across 10+ types
 - **Comprehensive Data Model**: Supports genes, traits, genotypes, QTLs, pathways, markers, and more
@@ -156,6 +157,16 @@ This project demonstrates how to build knowledge graphs for Retrieval-Augmented 
 - **Interactive Notebooks**: Jupyter notebooks for exploration and analysis
 - **Visualization Tools**: Scripts to analyze and export graph data
 - **Scalable Architecture**: Easily expandable with new CSV data sources
+
+### 🏭 Production Version Features
+- **🚀 Massive Scale**: Handle millions of genotypes from VCF files
+- **🧬 Real Biological Data**: Crop Ontology, ENVO ontology integration
+- **🤖 Machine Learning**: Graph Neural Networks for gene-trait prediction
+- **⚡ High Performance**: Batch processing, GPU acceleration
+- **🏢 Enterprise Deployment**: Neo4j Enterprise, Amazon Neptune support
+- **📊 Interactive Dashboard**: Flask + D3.js breeder interface
+- **🔄 Automated ETL**: Nextflow pipelines with versioning
+- **🔒 Production Security**: SSL/TLS, authentication, access control
 
 ## Data Model
 

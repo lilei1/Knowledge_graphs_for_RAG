@@ -2,15 +2,25 @@
 
 This project demonstrates how to build knowledge graphs for Retrieval-Augmented Generation (RAG) using Neo4j, with a focus on maize genetic data.
 
+## 🚀 **NEW: Production-Ready System Available!**
+
+**We now offer both learning/demo and production-ready implementations:**
+
+- **📚 Learning Version**: Original toy data system for education and prototyping
+- **🏭 Production Version**: Scalable system handling millions of genotypes, real biological data, and ML applications
+
+**For production deployment, see [PRODUCTION_README.md](PRODUCTION_README.md) and [SCALING_SUMMARY.md](SCALING_SUMMARY.md)**
+
 ## Project Structure
 
+### 📚 Learning/Demo Version (Original)
 ```
 ├── README.md                    # This file
 ├── SETUP_GUIDE.md              # Detailed setup instructions
 ├── LITERATURE_MINING_GUIDE.md  # Guide for extracting data from literature
 ├── DATABASE_MINING_GUIDE.md    # Guide for mining biological databases
 ├── DATA_MINING_SUMMARY.md      # Complete overview of all mining approaches
-├── requirements.txt            # Python dependencies
+├── requirements.txt            # Python dependencies (learning version)
 ├── .env.template              # Environment configuration template
 ├── build_maize_kg.py          # Main script to build the knowledge graph
 ├── expand_maize_kg.py         # Script to add additional CSV data
@@ -41,7 +51,27 @@ This project demonstrates how to build knowledge graphs for Retrieval-Augmented 
     └── L7-chat_with_kg.ipynb
 ```
 
+### 🏭 Production Version (NEW!)
+```
+├── PRODUCTION_README.md        # Production system documentation
+├── SCALING_SUMMARY.md          # Implementation summary
+├── requirements_production.txt # Production dependencies
+├── production_schema.py        # Enhanced graph schema (10+ node types)
+├── vcf_integration.py         # VCF processing for millions of genotypes
+├── phenotype_normalization.py # Crop Ontology integration
+├── environmental_integration.py # ENVO ontology & weather APIs
+├── gnn_inference.py           # Graph Neural Networks for ML
+├── nextflow_pipeline.nf       # Automated ETL pipeline
+├── production_deployment.py   # Enterprise deployment automation
+├── breeder_dashboard.py       # Flask + D3.js visualization dashboard
+├── production_kg_system.py    # Main orchestration system
+└── modules/
+    └── vcf_processing.nf      # Nextflow processing modules
+```
+
 ## Quick Start
+
+### 📚 Learning Version (Original Toy Data)
 
 1. **Install dependencies:**
    ```bash
@@ -86,6 +116,33 @@ This project demonstrates how to build knowledge graphs for Retrieval-Augmented 
    ```bash
    python3 visualize_kg.py
    ```
+
+### 🏭 Production Version (Scalable System)
+
+**For production deployment with millions of genotypes and real biological data:**
+
+1. **Install production dependencies:**
+   ```bash
+   pip3 install -r requirements_production.txt
+   ```
+
+2. **Deploy Neo4j Enterprise:**
+   ```bash
+   python production_deployment.py --type neo4j
+   ```
+
+3. **Run production pipeline:**
+   ```bash
+   python production_kg_system.py --action full_pipeline
+   ```
+
+4. **Start breeder dashboard:**
+   ```bash
+   python breeder_dashboard.py
+   # Access at http://localhost:5000
+   ```
+
+**📖 See [PRODUCTION_README.md](PRODUCTION_README.md) for complete production setup guide.**
 
 ## Features
 

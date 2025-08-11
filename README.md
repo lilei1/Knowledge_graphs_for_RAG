@@ -309,6 +309,22 @@ python3 real_api_mining.py     # Live API calls to real databases
 
 For detailed setup instructions, see [SETUP_GUIDE.md](SETUP_GUIDE.md).
 
+## 🎯 Which Version Should You Use?
+
+### 📚 **Use Learning Version If:**
+- Learning about knowledge graphs and Neo4j
+- Prototyping with small datasets
+- Educational purposes
+- Getting started with biological data modeling
+
+### 🏭 **Use Production Version If:**
+- Processing millions of genotypes (VCF files)
+- Need real biological data integration
+- Require machine learning predictions
+- Building breeding decision support systems
+- Need enterprise-scale deployment
+- Want interactive dashboards for breeders
+
 ## Contributing
 
 Feel free to contribute by:
@@ -321,3 +337,4 @@ Feel free to contribute by:
 - **Validating extracted data**: Cross-reference with biological databases and literature
 - **Integrating new LLM providers**: Add support for additional AI models
 - **Quality control**: Implement data validation and consistency checking pipelines
+- **Production enhancements**: Improve scalability, performance, and ML models

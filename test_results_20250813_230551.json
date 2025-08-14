@@ -1,0 +1,38 @@
+{
+  "Database Connection": {
+    "status": "FAILED",
+    "error": "{code: Neo.ClientError.Security.Unauthorized} {message: The client is unauthorized due to authentication failure.}",
+    "timestamp": "2025-08-13T23:05:51.590637"
+  },
+  "VCF Processing": {
+    "status": "FAILED",
+    "error": "{code: Neo.ClientError.Security.Unauthorized} {message: The client is unauthorized due to authentication failure.}",
+    "timestamp": "2025-08-13T23:05:51.595089"
+  },
+  "Phenotype Processing": {
+    "status": "FAILED",
+    "error": "{code: Neo.ClientError.Security.Unauthorized} {message: The client is unauthorized due to authentication failure.}",
+    "timestamp": "2025-08-13T23:05:51.598928"
+  },
+  "Environmental Integration": {
+    "status": "FAILED",
+    "error": "{code: Neo.ClientError.Security.AuthenticationRateLimit} {message: The client has provided incorrect authentication details too many times in a row.}",
+    "timestamp": "2025-08-13T23:05:51.603067"
+  },
+  "Full Pipeline": {
+    "status": "PASSED",
+    "result": {
+      "start_time": "2025-08-13T23:05:51.604544",
+      "stages": {},
+      "end_time": "2025-08-13T23:05:51.607056",
+      "status": "failed",
+      "error": "{code: Neo.ClientError.Security.AuthenticationRateLimit} {message: The client has provided incorrect authentication details too many times in a row.}"
+    },
+    "timestamp": "2025-08-13T23:05:51.607116"
+  },
+  "System Status": {
+    "status": "FAILED",
+    "error": "{code: Neo.ClientError.Security.AuthenticationRateLimit} {message: The client has provided incorrect authentication details too many times in a row.}",
+    "timestamp": "2025-08-13T23:05:51.610806"
+  }
+}

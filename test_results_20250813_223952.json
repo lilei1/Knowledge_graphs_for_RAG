@@ -1,0 +1,112 @@
+{
+  "Database Connection": {
+    "status": "PASSED",
+    "result": {
+      "message": "Connection successful"
+    },
+    "timestamp": "2025-08-13T22:39:43.017701"
+  },
+  "VCF Processing": {
+    "status": "PASSED",
+    "result": {
+      "processed_files": 1,
+      "total_variants": 10,
+      "total_genotypes": 80
+    },
+    "timestamp": "2025-08-13T22:39:43.190640"
+  },
+  "Phenotype Processing": {
+    "status": "PASSED",
+    "result": {
+      "processed_files": 0,
+      "total_measurements": 0
+    },
+    "timestamp": "2025-08-13T22:39:43.918353"
+  },
+  "Environmental Integration": {
+    "status": "PASSED",
+    "result": {
+      "processed_locations": 0
+    },
+    "timestamp": "2025-08-13T22:39:47.607624"
+  },
+  "Full Pipeline": {
+    "status": "PASSED",
+    "result": {
+      "start_time": "2025-08-13T22:39:47.609564",
+      "stages": {
+        "initialization": {
+          "status": "success"
+        },
+        "vcf_processing": {
+          "processed_files": 1,
+          "total_variants": 10,
+          "total_genotypes": 80
+        },
+        "phenotype_processing": {
+          "processed_files": 0,
+          "total_measurements": 0
+        },
+        "environmental_processing": {
+          "processed_locations": 0
+        },
+        "gnn_training": {
+          "status": "failed",
+          "error": "Using a target size (torch.Size([26])) that is different to the input size (torch.Size([2])) is deprecated. Please ensure they have the same size."
+        }
+      },
+      "end_time": "2025-08-13T22:39:51.968455",
+      "status": "success"
+    },
+    "timestamp": "2025-08-13T22:39:51.969563"
+  },
+  "System Status": {
+    "status": "PASSED",
+    "result": {
+      "timestamp": "2025-08-13T22:39:51.995719",
+      "database_status": "connected",
+      "node_counts": {
+        "Gene": 18,
+        "Trait": 33,
+        "Variant": 10,
+        "QTL": 11,
+        "Chromosome": 10,
+        "Pathway": 25,
+        "Germplasm": 8,
+        "Population": 0,
+        "Pedigree": 0,
+        "Trial": 7,
+        "Environment": 0,
+        "Location": 9,
+        "Season": 0,
+        "Marker": 10,
+        "SNP": 0,
+        "INDEL": 0,
+        "Measurement": 0,
+        "Timepoint": 0,
+        "OntologyTerm": 0,
+        "GOTerm": 0,
+        "TraitOntology": 0
+      },
+      "relationship_counts": {
+        "MEASURED": 11,
+        "CONDUCTED_IN": 7,
+        "REGULATES": 28,
+        "HAS_FUNCTION": 2,
+        "LOCATED_ON": 13,
+        "PARTICIPATES_IN": 10,
+        "HAS_MARKER": 5,
+        "ASSOCIATED_WITH": 16,
+        "TESTED_IN": 12,
+        "HAS_TRAIT": 22,
+        "HAS_WEATHER": 6,
+        "LINKED_TO": 5,
+        "IS_A": 15,
+        "STUDIES": 2,
+        "HAS_VARIANT": 80
+      },
+      "model_status": "not_trained"
+    },
+    "timestamp": "2025-08-13T22:39:52.095254"
+  }
+}

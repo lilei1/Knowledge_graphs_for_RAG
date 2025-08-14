@@ -3,7 +3,7 @@
 neo4j:
   uri: "bolt://localhost:7687"
   username: "neo4j"
-  password: "test123"
+  password: "maize123"
   database: "neo4j"
 
 data_sources:

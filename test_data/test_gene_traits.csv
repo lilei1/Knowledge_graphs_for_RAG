@@ -1,0 +1,9 @@
+subject,predicate,object
+DREB2A,regulates,Drought Tolerance
+ZmNAC111,regulates,Root Depth
+PSY1,regulates,Kernel Color
+ZmCCT,regulates,Flowering Time
+ZmDREB1A,regulates,Cold Tolerance
+B73,has_trait,Drought Tolerance
+Mo17,has_trait,High Yield
+W22,has_trait,Disease Resistance

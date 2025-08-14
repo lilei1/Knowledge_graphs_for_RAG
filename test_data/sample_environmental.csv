@@ -1,0 +1,6 @@
+location,latitude,longitude,year,trial_id,temperature_avg,temperature_min,temperature_max,precipitation_total,humidity_avg,soil_type,soil_ph,elevation,climate_zone,stress_type
+Ames_Iowa,42.0308,-93.6319,2023,Trial_Iowa_2023,22.5,18.2,28.4,850.5,68.2,Loam,6.8,335,Humid_Continental,Normal
+Lincoln_Nebraska,40.8136,-96.7026,2023,Trial_Nebraska_2023,23.1,17.8,30.2,425.3,55.4,Silt_Loam,7.1,362,Semi_Arid,Drought
+Urbana_Illinois,40.1106,-88.2073,2023,Trial_Illinois_2023,21.8,19.1,26.7,920.8,72.1,Clay_Loam,6.5,228,Humid_Continental,Normal
+Manhattan_Kansas,39.1836,-96.5717,2023,Trial_Kansas_2023,24.2,19.5,32.8,380.2,52.8,Sandy_Loam,7.3,322,Semi_Arid,Heat_Drought
+St_Paul_Minnesota,44.9537,-93.0900,2023,Trial_Minnesota_2023,19.4,15.2,24.8,780.6,65.9,Clay,6.2,260,Humid_Continental,Cold_Stress

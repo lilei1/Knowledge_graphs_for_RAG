@@ -1,0 +1,35 @@
+# Test Configuration for Production Knowledge Graph System
+
+neo4j:
+  uri: "bolt://localhost:7687"
+  username: "neo4j"
+  password: "test123"
+  database: "neo4j"
+
+data_sources:
+  vcf_directory: "test_data/"
+  phenotype_directory: "test_data/"
+  environmental_directory: "test_data/"
+
+processing:
+  batch_size: 100  # Small batch size for testing
+  max_variants_per_file: 1000  # Limit for testing
+  parallel_workers: 2
+
+gnn:
+  hidden_dim: 64  # Smaller for testing
+  num_layers: 2
+  dropout: 0.2
+  learning_rate: 0.001
+  num_epochs: 10  # Fewer epochs for testing
+  device: "cpu"  # Use CPU for testing
+
+deployment:
+  type: "neo4j"
+  environment: "test"
+
+# Test-specific settings
+test_settings:
+  create_sample_data: true
+  validate_only: false
+  cleanup_after_test: false

@@ -8,7 +8,12 @@ with proper node labels and relationships for genetic data.
 
 import pandas as pd
 import os
-from dotenv import load_dotenv
+try:
+    from dotenv import load_dotenv
+    DOTENV_AVAILABLE = True
+except ImportError:
+    DOTENV_AVAILABLE = False
+    print("Note: python-dotenv not installed. Using default Neo4j settings.")
 from neo4j import GraphDatabase
 import warnings
 warnings.filterwarnings("ignore")
@@ -35,7 +40,8 @@ class Neo4jConnection:
 
 def setup_neo4j_connection():
     """Setup Neo4j connection using environment variables"""
-    load_dotenv('.env', override=True)
+    if DOTENV_AVAILABLE:
+        load_dotenv('.env', override=True)
 
     # Get Neo4j credentials from environment
     NEO4J_URI = os.getenv('NEO4J_URI', 'bolt://localhost:7687')

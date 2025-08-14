@@ -1,0 +1,24 @@
+##fileformat=VCFv4.2
+##fileDate=20231201
+##source=TestDataGenerator
+##reference=Zea_mays.B73_RefGen_v4.dna.toplevel.fa
+##contig=<ID=1,length=307041717>
+##contig=<ID=2,length=244442276>
+##contig=<ID=3,length=235667834>
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Total Depth">
+##INFO=<ID=AF,Number=A,Type=Float,Description="Allele Frequency">
+##INFO=<ID=ANN,Number=.,Type=String,Description="Functional annotations">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read Depth">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype Quality">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	B73	Mo17	W22	Oh43	PH207	Ki3	A632	Tx303
+1	1000567	rs001	G	A	60	PASS	DP=150;AF=0.25;ANN=A|missense_variant|MODERATE|DREB2A	GT:DP:GQ	0/0:45:99	0/1:38:85	1/1:42:99	0/0:40:95	0/1:35:80	0/0:48:99	1/1:44:99	0/1:39:88
+1	1002345	rs002	C	T	55	PASS	DP=140;AF=0.375;ANN=T|synonymous_variant|LOW|ZmVPP1	GT:DP:GQ	0/1:42:90	1/1:35:99	0/0:38:95	0/1:41:88	1/1:36:99	0/1:43:92	0/0:39:96	1/1:37:99
+1	1005678	rs003	A	G	65	PASS	DP=160;AF=0.5;ANN=G|upstream_gene_variant|MODIFIER|ZmNAC111	GT:DP:GQ	1/1:48:99	0/1:40:85	0/1:45:90	1/1:42:99	0/0:38:95	1/1:46:99	0/1:41:87	0/0:39:93
+2	2001234	rs004	T	C	58	PASS	DP=135;AF=0.125;ANN=C|intron_variant|MODIFIER|PSY1	GT:DP:GQ	0/0:40:99	0/0:35:95	0/1:38:85	0/0:42:99	0/0:36:96	0/1:44:88	0/0:41:99	0/0:37:94
+2	2003456	rs005	G	A,T	62	PASS	DP=145;AF=0.3,0.2;ANN=A|missense_variant|MODERATE|ZmCCT	GT:DP:GQ	0/1:43:92	1/2:39:80	0/0:41:99	0/2:38:85	1/1:40:95	0/0:45:99	1/2:42:88	0/1:36:90
+3	3002345	rs006	C	G	70	PASS	DP=170;AF=0.4;ANN=G|stop_gained|HIGH|ZmDREB1A	GT:DP:GQ	0/1:50:95	1/1:45:99	0/0:42:96	0/1:48:92	1/1:44:99	0/1:46:94	0/0:41:98	1/1:43:99
+3	3004567	rs007	A	T	52	PASS	DP=125;AF=0.35;ANN=T|3_prime_UTR_variant|MODIFIER|ZmNF-YB2	GT:DP:GQ	0/1:38:88	0/0:35:95	1/1:40:99	0/1:37:85	0/0:42:96	1/1:39:99	0/1:41:90	0/0:36:93
+1	1008901	rs008	G	C	68	PASS	DP=155;AF=0.45;ANN=C|splice_region_variant|LOW|ZmEREB1	GT:DP:GQ	1/1:47:99	0/1:41:87	0/1:44:92	1/1:46:99	0/0:38:95	0/1:45:89	1/1:43:99	0/1:40:86
+2	2006789	rs009	T	A	63	PASS	DP=148;AF=0.3;ANN=A|downstream_gene_variant|MODIFIER|ZmWRKY1	GT:DP:GQ	0/0:42:99	0/1:39:85	1/1:45:99	0/0:41:96	0/1:37:88	0/0:46:99	1/1:44:99	0/1:38:90
+3	3007890	rs010	C	T	59	PASS	DP=142;AF=0.25;ANN=T|missense_variant|MODERATE|ZmMYB1	GT:DP:GQ	0/0:41:99	0/1:38:86	0/0:43:95	0/1:40:89	0/0:39:97	1/1:45:99	0/0:42:96	0/1:37:88

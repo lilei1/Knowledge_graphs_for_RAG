@@ -1,0 +1,186 @@
+{
+  "timestamp": "2025-08-13T21:39:18.850388",
+  "python_version": "3.13",
+  "tests": {
+    "original_data": {
+      "status": "passed"
+    },
+    "additional_data": {
+      "status": "passed",
+      "files": {
+        "field_trials.csv": {
+          "rows": 30,
+          "columns": 3,
+          "column_names": [
+            "subject",
+            "predicate",
+            "object"
+          ]
+        },
+        "genotype_traits.csv": {
+          "rows": 18,
+          "columns": 3,
+          "column_names": [
+            "subject",
+            "predicate",
+            "object"
+          ]
+        },
+        "qtl_mappings.csv": {
+          "rows": 18,
+          "columns": 3,
+          "column_names": [
+            "subject",
+            "predicate",
+            "object"
+          ]
+        },
+        "pathways.csv": {
+          "rows": 19,
+          "columns": 3,
+          "column_names": [
+            "subject",
+            "predicate",
+            "object"
+          ]
+        },
+        "molecular_markers.csv": {
+          "rows": 15,
+          "columns": 3,
+          "column_names": [
+            "subject",
+            "predicate",
+            "object"
+          ]
+        },
+        "literature_extracted.csv": {
+          "rows": 28,
+          "columns": 3,
+          "column_names": [
+            "subject",
+            "predicate",
+            "object"
+          ]
+        },
+        "real_api_mined.csv": {
+          "rows": 7,
+          "columns": 3,
+          "column_names": [
+            "subject",
+            "predicate",
+            "object"
+          ]
+        },
+        "additional_genes.csv": {
+          "rows": 15,
+          "columns": 3,
+          "column_names": [
+            "subject",
+            "predicate",
+            "object"
+          ]
+        },
+        "maize.csv": {
+          "rows": 12,
+          "columns": 3,
+          "column_names": [
+            "subject",
+            "predicate",
+            "object"
+          ]
+        },
+        "database_mined.csv": {
+          "rows": 16,
+          "columns": 3,
+          "column_names": [
+            "subject",
+            "predicate",
+            "object"
+          ]
+        }
+      }
+    },
+    "test_data": {
+      "status": "passed",
+      "files": {
+        "test_data/sample_vcf.vcf": {
+          "type": "VCF",
+          "variants": 10,
+          "samples": 8,
+          "sample_names": [
+            "B73",
+            "Mo17",
+            "W22",
+            "Oh43",
+            "PH207"
+          ]
+        },
+        "test_data/sample_phenotypes_wide.csv": {
+          "type": "CSV",
+          "rows": 32,
+          "columns": 12,
+          "column_names": [
+            "germplasm_id",
+            "trial_id",
+            "plot_id",
+            "replicate",
+            "block",
+            "timestamp",
+            "plant_height",
+            "grain_yield",
+            "flowering_time",
+            "drought_tolerance",
+            "kernel_color",
+            "root_depth"
+          ]
+        },
+        "test_data/sample_phenotypes_long.csv": {
+          "type": "CSV",
+          "rows": 40,
+          "columns": 13,
+          "column_names": [
+            "germplasm_id",
+            "trial_id",
+            "plot_id",
+            "replicate",
+            "block",
+            "timestamp",
+            "trait",
+            "value",
+            "unit",
+            "method",
+            "observer",
+            "quality_flag",
+            "notes"
+          ]
+        },
+        "test_data/sample_environmental.csv": {
+          "type": "CSV",
+          "rows": 5,
+          "columns": 15,
+          "column_names": [
+            "location",
+            "latitude",
+            "longitude",
+            "year",
+            "trial_id",
+            "temperature_avg",
+            "temperature_min",
+            "temperature_max",
+            "precipitation_total",
+            "humidity_avg",
+            "soil_type",
+            "soil_ph",
+            "elevation",
+            "climate_zone",
+            "stress_type"
+          ]
+        }
+      }
+    },
+    "sample_creation": {
+      "status": "passed",
+      "output_file": "test_relationships_generated.csv"
+    }
+  }
+}

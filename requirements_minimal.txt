@@ -1,0 +1,26 @@
+# Minimal Requirements for Testing Knowledge Graph System
+# Compatible with Python 3.13
+
+# Core dependencies
+pandas
+numpy
+python-dotenv
+pyyaml
+requests
+
+# Neo4j
+neo4j
+
+# Web framework (for dashboard)
+flask
+flask-cors
+
+# Data processing
+scipy
+networkx
+
+# Geospatial (optional)
+geopy
+
+# Development and testing
+pytest

@@ -1,0 +1,128 @@
+{
+  "Data File Validation": {
+    "status": "PASSED",
+    "result": {
+      "existing_files": 5,
+      "missing_files": 0,
+      "files": [
+        "test_data/sample_vcf.vcf",
+        "test_data/sample_phenotypes_wide.csv",
+        "test_data/sample_phenotypes_long.csv",
+        "test_data/sample_environmental.csv",
+        "test_data/test_config.yaml"
+      ]
+    },
+    "timestamp": "2025-08-11T17:05:12.705688"
+  },
+  "VCF File Parsing": {
+    "status": "PASSED",
+    "result": {
+      "variants_count": 10,
+      "samples_count": 8,
+      "samples": [
+        "B73",
+        "Mo17",
+        "W22",
+        "Oh43",
+        "PH207",
+        "Ki3",
+        "A632",
+        "Tx303"
+      ],
+      "chromosomes": [
+        "2",
+        "3",
+        "1"
+      ]
+    },
+    "timestamp": "2025-08-11T17:05:12.705805"
+  },
+  "Phenotype Data Processing": {
+    "status": "PASSED",
+    "result": {
+      "wide_format": {
+        "rows": 32,
+        "columns": 12,
+        "traits": [
+          "plant_height",
+          "grain_yield",
+          "flowering_time",
+          "drought_tolerance",
+          "kernel_color",
+          "root_depth"
+        ],
+        "germplasm_count": 8,
+        "trial_count": 4
+      },
+      "long_format": {
+        "measurements": 40,
+        "traits": [
+          "plant_height",
+          "grain_yield",
+          "flowering_time",
+          "drought_tolerance"
+        ],
+        "germplasm_count": 8,
+        "trial_count": 2
+      }
+    },
+    "timestamp": "2025-08-11T17:05:12.713665"
+  },
+  "Environmental Data Processing": {
+    "status": "PASSED",
+    "result": {
+      "locations_count": 5,
+      "locations": [
+        "Ames_Iowa",
+        "Lincoln_Nebraska",
+        "Urbana_Illinois",
+        "Manhattan_Kansas",
+        "St_Paul_Minnesota"
+      ],
+      "stress_types": [
+        "Normal",
+        "Drought",
+        "Heat_Drought",
+        "Cold_Stress"
+      ],
+      "temperature_range": [
+        19.4,
+        24.2
+      ],
+      "precipitation_range": [
+        380.2,
+        920.8
+      ]
+    },
+    "timestamp": "2025-08-11T17:05:12.714655"
+  },
+  "CSV Generation": {
+    "status": "PASSED",
+    "result": {
+      "relationships_count": 7,
+      "output_file": "test_data/generated_relationships.csv",
+      "subjects": [
+        "DREB2A",
+        "ZmNAC111",
+        "PSY1",
+        "ZmCCT",
+        "B73",
+        "Mo17",
+        "W22"
+      ],
+      "predicates": [
+        "regulates",
+        "has_trait"
+      ],
+      "objects": [
+        "Drought Tolerance",
+        "Root Depth",
+        "Kernel Color",
+        "Flowering Time",
+        "High Yield",
+        "Disease Resistance"
+      ]
+    },
+    "timestamp": "2025-08-11T17:05:12.716352"
+  }
+}

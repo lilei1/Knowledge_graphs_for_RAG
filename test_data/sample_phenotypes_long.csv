@@ -1,0 +1,41 @@
+germplasm_id,trial_id,plot_id,replicate,block,timestamp,trait,value,unit,method,observer,quality_flag,notes
+B73,Trial_Iowa_2023,P001,1,A,2023-07-15,plant_height,245.5,cm,ruler_measurement,JSmith,PASS,
+B73,Trial_Iowa_2023,P001,1,A,2023-08-20,grain_yield,8.2,kg/plot,harvest_weight,JSmith,PASS,
+B73,Trial_Iowa_2023,P001,1,A,2023-07-01,flowering_time,65,days,visual_observation,MJones,PASS,anthesis date
+B73,Trial_Iowa_2023,P001,1,A,2023-08-15,drought_tolerance,7.5,score,visual_rating,JSmith,PASS,1-10 scale
+Mo17,Trial_Iowa_2023,P002,1,A,2023-07-15,plant_height,220.3,cm,ruler_measurement,JSmith,PASS,
+Mo17,Trial_Iowa_2023,P002,1,A,2023-08-20,grain_yield,7.8,kg/plot,harvest_weight,JSmith,PASS,
+Mo17,Trial_Iowa_2023,P002,1,A,2023-07-03,flowering_time,68,days,visual_observation,MJones,PASS,anthesis date
+Mo17,Trial_Iowa_2023,P002,1,A,2023-08-15,drought_tolerance,6.8,score,visual_rating,JSmith,PASS,1-10 scale
+W22,Trial_Iowa_2023,P003,1,A,2023-07-15,plant_height,235.7,cm,ruler_measurement,JSmith,PASS,
+W22,Trial_Iowa_2023,P003,1,A,2023-08-20,grain_yield,8.5,kg/plot,harvest_weight,JSmith,PASS,
+W22,Trial_Iowa_2023,P003,1,A,2023-06-28,flowering_time,62,days,visual_observation,MJones,PASS,anthesis date
+W22,Trial_Iowa_2023,P003,1,A,2023-08-15,drought_tolerance,8.2,score,visual_rating,JSmith,PASS,1-10 scale
+Oh43,Trial_Iowa_2023,P004,1,A,2023-07-15,plant_height,255.2,cm,ruler_measurement,JSmith,PASS,
+Oh43,Trial_Iowa_2023,P004,1,A,2023-08-20,grain_yield,9.1,kg/plot,harvest_weight,JSmith,PASS,
+Oh43,Trial_Iowa_2023,P004,1,A,2023-07-05,flowering_time,70,days,visual_observation,MJones,PASS,anthesis date
+Oh43,Trial_Iowa_2023,P004,1,A,2023-08-15,drought_tolerance,7.1,score,visual_rating,JSmith,PASS,1-10 scale
+PH207,Trial_Iowa_2023,P005,1,A,2023-07-15,plant_height,198.4,cm,ruler_measurement,JSmith,PASS,
+PH207,Trial_Iowa_2023,P005,1,A,2023-08-20,grain_yield,6.9,kg/plot,harvest_weight,JSmith,PASS,
+PH207,Trial_Iowa_2023,P005,1,A,2023-06-24,flowering_time,58,days,visual_observation,MJones,PASS,anthesis date
+PH207,Trial_Iowa_2023,P005,1,A,2023-08-15,drought_tolerance,8.8,score,visual_rating,JSmith,PASS,1-10 scale
+Ki3,Trial_Iowa_2023,P006,1,A,2023-07-15,plant_height,267.8,cm,ruler_measurement,JSmith,PASS,
+Ki3,Trial_Iowa_2023,P006,1,A,2023-08-20,grain_yield,8.7,kg/plot,harvest_weight,JSmith,PASS,
+Ki3,Trial_Iowa_2023,P006,1,A,2023-07-07,flowering_time,72,days,visual_observation,MJones,PASS,anthesis date
+Ki3,Trial_Iowa_2023,P006,1,A,2023-08-15,drought_tolerance,6.5,score,visual_rating,JSmith,PASS,1-10 scale
+A632,Trial_Iowa_2023,P007,1,A,2023-07-15,plant_height,241.6,cm,ruler_measurement,JSmith,PASS,
+A632,Trial_Iowa_2023,P007,1,A,2023-08-20,grain_yield,8.3,kg/plot,harvest_weight,JSmith,PASS,
+A632,Trial_Iowa_2023,P007,1,A,2023-07-02,flowering_time,66,days,visual_observation,MJones,PASS,anthesis date
+A632,Trial_Iowa_2023,P007,1,A,2023-08-15,drought_tolerance,7.9,score,visual_rating,JSmith,PASS,1-10 scale
+Tx303,Trial_Iowa_2023,P008,1,A,2023-07-15,plant_height,229.1,cm,ruler_measurement,JSmith,PASS,
+Tx303,Trial_Iowa_2023,P008,1,A,2023-08-20,grain_yield,7.5,kg/plot,harvest_weight,JSmith,PASS,
+Tx303,Trial_Iowa_2023,P008,1,A,2023-06-30,flowering_time,64,days,visual_observation,MJones,PASS,anthesis date
+Tx303,Trial_Iowa_2023,P008,1,A,2023-08-15,drought_tolerance,7.3,score,visual_rating,JSmith,PASS,1-10 scale
+B73,Trial_Nebraska_2023,P009,1,B,2023-07-20,plant_height,238.2,cm,ruler_measurement,RBrown,PASS,drought stress trial
+B73,Trial_Nebraska_2023,P009,1,B,2023-08-25,grain_yield,6.8,kg/plot,harvest_weight,RBrown,PASS,reduced yield due to drought
+B73,Trial_Nebraska_2023,P009,1,B,2023-07-02,flowering_time,67,days,visual_observation,LWilson,PASS,delayed flowering
+B73,Trial_Nebraska_2023,P009,1,B,2023-08-20,drought_tolerance,8.1,score,visual_rating,RBrown,PASS,good drought tolerance
+Mo17,Trial_Nebraska_2023,P010,1,B,2023-07-20,plant_height,215.7,cm,ruler_measurement,RBrown,PASS,drought stress trial
+Mo17,Trial_Nebraska_2023,P010,1,B,2023-08-25,grain_yield,6.2,kg/plot,harvest_weight,RBrown,PASS,moderate drought impact
+Mo17,Trial_Nebraska_2023,P010,1,B,2023-07-05,flowering_time,70,days,visual_observation,LWilson,PASS,delayed flowering
+Mo17,Trial_Nebraska_2023,P010,1,B,2023-08-20,drought_tolerance,7.2,score,visual_rating,RBrown,PASS,moderate drought tolerance

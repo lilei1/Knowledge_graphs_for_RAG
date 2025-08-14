@@ -1,0 +1,166 @@
+{
+  "Environment Check": {
+    "status": "PASSED",
+    "result": {
+      "python_version": "3.13.5",
+      "packages": {
+        "pandas": "2.3.1",
+        "numpy": "2.1.3",
+        "neo4j": "5.28.2",
+        "yaml": "6.0.2",
+        "requests": "2.32.3"
+      }
+    },
+    "timestamp": "2025-08-13T21:58:05.597167"
+  },
+  "Configuration Loading": {
+    "status": "PASSED",
+    "result": {
+      "config_file": "test_data/test_config.yaml",
+      "sections": [
+        "neo4j",
+        "data_sources",
+        "processing",
+        "gnn",
+        "deployment",
+        "test_settings"
+      ],
+      "missing_sections": []
+    },
+    "timestamp": "2025-08-13T21:58:05.598242"
+  },
+  "VCF Data Validation": {
+    "status": "PASSED",
+    "result": {
+      "file": "test_data/sample_vcf.vcf",
+      "variants_count": 10,
+      "samples_count": 8,
+      "samples": [
+        "B73",
+        "Mo17",
+        "W22",
+        "Oh43",
+        "PH207",
+        "Ki3",
+        "A632",
+        "Tx303"
+      ],
+      "chromosomes": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "timestamp": "2025-08-13T21:58:05.598434"
+  },
+  "Phenotype Data Validation": {
+    "status": "PASSED",
+    "result": {
+      "wide_format": {
+        "file": "test_data/sample_phenotypes_wide.csv",
+        "rows": 32,
+        "traits": [
+          "plant_height",
+          "grain_yield",
+          "flowering_time",
+          "drought_tolerance",
+          "kernel_color",
+          "root_depth"
+        ],
+        "germplasm_count": 8
+      },
+      "long_format": {
+        "file": "test_data/sample_phenotypes_long.csv",
+        "measurements": 40,
+        "traits": [
+          "plant_height",
+          "grain_yield",
+          "flowering_time",
+          "drought_tolerance"
+        ],
+        "germplasm_count": 8
+      }
+    },
+    "timestamp": "2025-08-13T21:58:05.602632"
+  },
+  "Environmental Data Validation": {
+    "status": "PASSED",
+    "result": {
+      "file": "test_data/sample_environmental.csv",
+      "locations_count": 5,
+      "locations": [
+        "Ames_Iowa",
+        "Lincoln_Nebraska",
+        "Urbana_Illinois",
+        "Manhattan_Kansas",
+        "St_Paul_Minnesota"
+      ],
+      "stress_types": [
+        "Normal",
+        "Drought",
+        "Heat_Drought",
+        "Cold_Stress"
+      ],
+      "columns": [
+        "location",
+        "latitude",
+        "longitude",
+        "year",
+        "trial_id",
+        "temperature_avg",
+        "temperature_min",
+        "temperature_max",
+        "precipitation_total",
+        "humidity_avg",
+        "soil_type",
+        "soil_ph",
+        "elevation",
+        "climate_zone",
+        "stress_type"
+      ]
+    },
+    "timestamp": "2025-08-13T21:58:05.603272"
+  },
+  "Neo4j Connection": {
+    "status": "PASSED",
+    "result": {
+      "status": "connected",
+      "components": [
+        {
+          "name": "Neo4j Kernel",
+          "versions": [
+            "4.4.44"
+          ],
+          "edition": "community"
+        }
+      ]
+    },
+    "timestamp": "2025-08-13T21:58:05.653647"
+  },
+  "Schema Validation": {
+    "status": "PASSED",
+    "result": {
+      "expected_node_types": [
+        "Gene",
+        "Trait",
+        "Variant",
+        "Germplasm",
+        "Environment",
+        "Trial",
+        "Measurement",
+        "OntologyTerm"
+      ],
+      "expected_relationships": [
+        "REGULATES",
+        "HAS_VARIANT",
+        "MEASURED_IN",
+        "CONDUCTED_IN",
+        "ANNOTATED_WITH",
+        "LOCATED_AT"
+      ],
+      "schema_file": "production_schema.py",
+      "schema_exists": true
+    },
+    "timestamp": "2025-08-13T21:58:05.653846"
+  }
+}

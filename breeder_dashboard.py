@@ -428,9 +428,54 @@ def not_found(error):
 def internal_error(error):
     return render_template('500.html'), 500
 
+def find_available_port(start_port=5001):
+    """Find an available port starting from start_port"""
+    import socket
+    for port in range(start_port, start_port + 100):
+        try:
+            with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+                s.bind(('localhost', port))
+                return port
+        except OSError:
+            continue
+    return None
+
 if __name__ == '__main__':
-    # Development server
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    import argparse
+    parser = argparse.ArgumentParser(description='Breeder Dashboard')
+    parser.add_argument('--port', type=int, default=None, help='Port to run on (auto-detect if not specified)')
+    parser.add_argument('--host', default='0.0.0.0', help='Host to bind to (default: 0.0.0.0)')
+    args = parser.parse_args()
+
+    # Find available port if not specified
+    if args.port is None:
+        args.port = find_available_port()
+        if args.port is None:
+            print("❌ Could not find an available port")
+            exit(1)
+
+    print(f"🧬 Starting Breeder Dashboard on http://localhost:{args.port}")
+    print("Features available:")
+    print("- Gene-trait network visualization")
+    print("- Candidate gene predictions")
+    print("- Germplasm performance analysis")
+    print("- Breeding decision support tools")
+    print(f"\n🌐 Open your browser to: http://localhost:{args.port}")
+
+    try:
+        # Development server
+        app.run(debug=True, host=args.host, port=args.port)
+    except OSError as e:
+        if "Address already in use" in str(e):
+            print(f"❌ Port {args.port} is in use. Trying to find another port...")
+            new_port = find_available_port(args.port + 1)
+            if new_port:
+                print(f"🔄 Retrying on port {new_port}")
+                app.run(debug=True, host=args.host, port=new_port)
+            else:
+                print("❌ Could not find any available port")
+        else:
+            raise
 else:
     # Production WSGI
     logger.info("Breeder Dashboard initialized for production")
